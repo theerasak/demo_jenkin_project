@@ -20,4 +20,14 @@ public class Grade {
 		//FIXME
 	}
 
+	public String isInvalidScore(int score) {
+
+		if (score < 0) {
+			return "TRUE";
+		}
+		else {
+			return "FALSE";
+		}
+	}
+
 }
